@@ -1,9 +1,8 @@
 pandas
-numpy
+dvc
 tensorflow
-tqdm 
+pandas
+tqdm
+matplotlib
 PyYAML
 boto3
-dvc
-matplotlib
--e .
