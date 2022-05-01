@@ -10,4 +10,10 @@ artifacts:
   CALLBACKS_DIR: callbacks
 
 
-source_download_path: https://drive.google.com/drive/folders/1zWxSffR3WaSWPayXmBU57hJlaRIYSmF2?usp=sharing
+source_download_path:
+  - ../outside_data/cat/
+  - ../outside_data/dog/
+ 
+local_data_path:
+  - data/not_remote/cat/
+  - data/not_remote/dog/

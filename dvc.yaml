@@ -1,0 +1,10 @@
+stages:
+  load_data:
+    cmd: python src/load_data.py
+    deps:
+    - config/config.yaml
+    - src/load_data.py
+    - src/utils/main.py
+    outs:
+    - data/not_remote/cat/
+    - data/not_remote/dog/
