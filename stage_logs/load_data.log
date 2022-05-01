@@ -1,0 +1,3 @@
+[2022-05-01 17:29:29,581: INFO: load_data]: args have been readed
+[2022-05-01 17:29:29,581: INFO: load_data]: yaml has been parsed
+[2022-05-01 17:29:30,629: INFO: load_data]: Successfully sent the remote to local storage
