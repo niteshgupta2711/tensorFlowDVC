@@ -6,5 +6,5 @@ stages:
     - src/load_data.py
     - src/utils/main.py
     outs:
-    - data/not_remote/cat/
-    - data/not_remote/dog/
+    - artifacts/not_remote/cat/
+    - artifacts/not_remote/dog/

@@ -1,6 +1,7 @@
 ./env
 env/
 config/secrets.yaml
-data/
+
 
 # use ls -la to check what you want to ignore
+/data

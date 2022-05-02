@@ -15,5 +15,5 @@ source_download_path:
   - ../outside_data/dog/
  
 local_data_path:
-  - data/not_remote/cat/
-  - data/not_remote/dog/
+  - artifacts/not_remote/cat/
+  - artifacts/not_remote/dog/

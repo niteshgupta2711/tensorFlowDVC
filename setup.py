@@ -15,3 +15,5 @@ python_version='>=3.7'
  # dvc repro train(stage name)
  # dvc repro -f train (forciblt run a stage
  #the stage runs again if the dependencies of that paticular stage is modified)
+ # YOU NEED TO ACCES EVERYTHING AND OUTPUT EVERYTHING USING YAML INCLUDING PARAMS
+ # any variable that can be change during experimentation should be through yaml

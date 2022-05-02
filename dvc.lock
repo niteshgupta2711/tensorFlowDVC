@@ -4,20 +4,20 @@ stages:
     cmd: python src/load_data.py
     deps:
     - path: config/config.yaml
-      md5: 721df0c5b1a012712304f2afa80c88fb
-      size: 484
+      md5: 67634fb19afdc59b12804885abc1ccca
+      size: 494
     - path: src/load_data.py
-      md5: 5e7dd437f85f36427c8f1543818068a5
-      size: 861
+      md5: c9cec25432fcbe3ad034e9a39a47c20b
+      size: 1307
     - path: src/utils/main.py
       md5: cfdff49405195b7a6b41d040d6ebc368
       size: 146
     outs:
-    - path: data/not_remote/cat/
+    - path: artifacts/not_remote/cat/
       md5: 2acc285e327d446c48b2deae2794c043.dir
       size: 18570831
       nfiles: 103
-    - path: data/not_remote/dog/
+    - path: artifacts/not_remote/dog/
       md5: 4cd98e0169f25b4675d46cbc1b678d2d.dir
       size: 19364112
       nfiles: 174
